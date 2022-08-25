@@ -34,7 +34,7 @@ function loadBreedOptions() {
     });
 }
 function update(breeds) {
-  let ul = document.getElementById('dog-breeds');
+  const ul = document.getElementById('dog-breeds');
   removeChildren(ul);
   breeds.forEach(breed => addBreed(breed));
 }
